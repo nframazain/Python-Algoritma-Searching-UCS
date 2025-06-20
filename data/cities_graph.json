@@ -1,0 +1,107 @@
+{
+  "Jakarta": [
+    ["Bandung", 150],
+    ["Semarang", 450],
+    ["Palembang", 425]
+  ],
+  "Bandung": [
+    ["Jakarta", 150],
+    ["Cirebon", 130],
+    ["Yogyakarta", 450]
+  ],
+  "Cirebon": [
+    ["Bandung", 130],
+    ["Semarang", 210]
+  ],
+  "Semarang": [
+    ["Cirebon", 210],
+    ["Yogyakarta", 120],
+    ["Surabaya", 350]
+  ],
+  "Yogyakarta": [
+    ["Bandung", 450],
+    ["Semarang", 120],
+    ["Surabaya", 330]
+  ],
+  "Surabaya": [
+    ["Semarang", 350],
+    ["Yogyakarta", 330],
+    ["Malang", 90],
+    ["Bali", 300]
+  ],
+  "Malang": [
+    ["Surabaya", 90],
+    ["Bali", 280]
+  ],
+  "Bali": [
+    ["Surabaya", 300],
+    ["Malang", 280],
+    ["Mataram", 120]
+  ],
+  "Mataram": [
+    ["Bali", 120],
+    ["Bima", 450]
+  ],
+  "Bima": [
+    ["Mataram", 450],
+    ["Makassar", 700]
+  ],
+  "Makassar": [
+    ["Bima", 700],
+    ["Manado", 1200],
+    ["Kendari", 450]
+  ],
+  "Manado": [
+    ["Makassar", 1200],
+    ["Gorontalo", 350]
+  ],
+  "Gorontalo": [["Manado", 350]],
+  "Kendari": [
+    ["Makassar", 450],
+    ["Ambon", 1000]
+  ],
+  "Ambon": [
+    ["Kendari", 1000],
+    ["Jayapura", 2500]
+  ],
+  "Jayapura": [["Ambon", 2500]],
+  "Palembang": [
+    ["Jakarta", 425],
+    ["Bandar Lampung", 290],
+    ["Pekanbaru", 600]
+  ],
+  "Bandar Lampung": [
+    ["Palembang", 290],
+    ["Metro", 40]
+  ],
+  "Metro": [
+    ["Bandar Lampung", 40],
+    ["Pringsewu", 35]
+  ],
+  "Pringsewu": [
+    ["Metro", 35],
+    ["Kotabumi", 60]
+  ],
+  "Kotabumi": [
+    ["Pringsewu", 60],
+    ["Palembang", 250]
+  ],
+  "Pekanbaru": [
+    ["Palembang", 600],
+    ["Medan", 450]
+  ],
+  "Medan": [
+    ["Pekanbaru", 450],
+    ["Padang", 420],
+    ["Banda Aceh", 600]
+  ],
+  "Padang": [
+    ["Medan", 420],
+    ["Jambi", 400]
+  ],
+  "Jambi": [
+    ["Padang", 400],
+    ["Palembang", 300]
+  ],
+  "Banda Aceh": [["Medan", 600]]
+}
